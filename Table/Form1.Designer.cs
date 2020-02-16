@@ -34,7 +34,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.toplen = new System.Windows.Forms.NumericUpDown();
             this.baselen = new System.Windows.Forms.NumericUpDown();
             this.toplb = new System.Windows.Forms.NumericUpDown();
@@ -91,29 +90,19 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(942, 72);
+            this.label5.Location = new System.Drawing.Point(496, 50);
             this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 32);
+            this.label5.Size = new System.Drawing.Size(286, 32);
             this.label5.TabIndex = 8;
-            this.label5.Text = "lb";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(286, 70);
-            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 32);
-            this.label6.TabIndex = 9;
-            this.label6.Text = "in";
+            this.label5.Text = "Keep units consistent";
             // 
             // toplen
             // 
             this.toplen.AccessibleName = "TopLen";
             this.toplen.DecimalPlaces = 1;
             this.toplen.Location = new System.Drawing.Point(292, 124);
-            this.toplen.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.toplen.Margin = new System.Windows.Forms.Padding(6);
             this.toplen.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -138,7 +127,7 @@
             // 
             this.baselen.DecimalPlaces = 1;
             this.baselen.Location = new System.Drawing.Point(292, 200);
-            this.baselen.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.baselen.Margin = new System.Windows.Forms.Padding(6);
             this.baselen.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -163,7 +152,7 @@
             // 
             this.toplb.DecimalPlaces = 1;
             this.toplb.Location = new System.Drawing.Point(914, 122);
-            this.toplb.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.toplb.Margin = new System.Windows.Forms.Padding(6);
             this.toplb.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -188,7 +177,7 @@
             // 
             this.baselb.DecimalPlaces = 1;
             this.baselb.Location = new System.Drawing.Point(914, 209);
-            this.baselb.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.baselb.Margin = new System.Windows.Forms.Padding(6);
             this.baselb.Maximum = new decimal(new int[] {
             9999,
             0,
@@ -213,7 +202,7 @@
             // 
             this.output.AccessibleName = "Output";
             this.output.Location = new System.Drawing.Point(914, 463);
-            this.output.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.output.Margin = new System.Windows.Forms.Padding(6);
             this.output.Name = "output";
             this.output.ReadOnly = true;
             this.output.Size = new System.Drawing.Size(372, 38);
@@ -226,9 +215,9 @@
             this.label7.Location = new System.Drawing.Point(646, 473);
             this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(231, 32);
+            this.label7.Size = new System.Drawing.Size(206, 32);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Tipping Point (lb)";
+            this.label7.Text = "Tipping Weight";
             // 
             // Form1
             // 
@@ -241,7 +230,6 @@
             this.Controls.Add(this.toplb);
             this.Controls.Add(this.baselen);
             this.Controls.Add(this.toplen);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -249,7 +237,7 @@
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
             this.Text = "Table Balance";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -268,7 +256,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.NumericUpDown toplen;
         private System.Windows.Forms.NumericUpDown baselen;
         private System.Windows.Forms.NumericUpDown toplb;
