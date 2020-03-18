@@ -4,3 +4,5 @@ A little calculator I made for my dad to calculate the force required to tip a t
 Allows you to input table and base lengths and weights. Output is in weight input units. 
 
 Ugly but it works.
+
+Tested to be accurate within a few pounds
